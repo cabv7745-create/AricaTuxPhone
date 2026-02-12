@@ -11,7 +11,7 @@
 
 ## 🛠️ Requisitos de hardware
 - ESP32 WROOM-32S
-- Pantalla TFT de 2,4" o 2,8" (ILI9341) táctil
+- Pantalla TFT de 1.8 pulgadas (ST7735) táctil
 - ESP32-CAM (para el módulo de cámara)
 
 ## 🚀 Cómo instalar
@@ -21,3 +21,4 @@
 4. Sigue la calibración en pantalla.
 
 **¡Suscríbete al canal para estar al día!**
+Canal: @ClaudioBravo-k4g
