@@ -2,7 +2,7 @@
 
 Este documento detalla el cableado necesario para construir la PDA basada en **ESP32 WROOM-32S** y el módulo de cámara **ESP32-CAM**.
 
-## 📱 1. Pantalla TFT + Touch (ILI9341 2.4"/2.8")
+## 📱 1. Pantalla TFT + Touch (ST7735 XPT2046 1.8 PULGADAS)
 
 La pantalla y el panel táctil comparten el bus **SPI**. Esto significa que varios cables van a los mismos pines del ESP32.
 
@@ -16,7 +16,6 @@ La pantalla y el panel táctil comparten el bus **SPI**. Esto significa que vari
 | **SDI (MOSI)** | GPIO 23 | SPI Data In | **Compartido** con Touch. |
 | **SCK** | GPIO 18 | SPI Clock | **Compartido** con Touch. |
 | **LED** | 3.3V | Backlight | Iluminación de fondo. |
-| **SDO (MISO)** | GPIO 19 | SPI Data Out | **Compartido** con Touch. |
 | **T_CLK** | GPIO 18 | Touch Clock | **Compartido** con LCD. |
 | **T_CS** | GPIO 5 | Chip Select (Touch)| Controla el táctil. |
 | **T_DIN** | GPIO 23 | Touch Data In | **Compartido** con LCD. |
